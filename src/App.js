@@ -1,10 +1,12 @@
+import React, { useState } from "react";
+import Loading from './Loading'
+import Tours from './Tours'
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    const [loading, setLoading] = useState(true);
+    const [tours, setTours] = useState(true);
         <h1>Hello world</h1>
-      </header>
-    </div>
   );
 }
 
